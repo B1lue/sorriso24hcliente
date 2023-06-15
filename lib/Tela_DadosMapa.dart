@@ -259,18 +259,27 @@ class _TimerScreenState extends State<TimerScreen> {
               onPressed: () {
                 solicitarPermissaoLocalizacao();
               },
+              style: ElevatedButton.styleFrom(
+                fixedSize: const Size(200, 40),
+              ),
               child: const Text('Permitir Localização'),
             ),
             ElevatedButton(
               onPressed: () {
                 enviarLocalizacao();
               },
+              style: ElevatedButton.styleFrom(
+                fixedSize: const Size(200, 40),
+              ),
               child: const Text('Enviar Localização'),
             ),
             ElevatedButton(
               onPressed: () {
                 abrirTelaAvaliacao();
               },
+              style: ElevatedButton.styleFrom(
+                fixedSize: const Size(200, 40),
+              ),
               child: const Text('Avaliação'),
             ),
           ],

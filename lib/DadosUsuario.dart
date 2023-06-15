@@ -190,11 +190,11 @@ class _DadosUsuarioTelaState extends State<DadosUsuarioTela> {
                   children: [
                     for (int i = 0; i < _imageFiles.length; i++)
                       Container(
-                        margin: const EdgeInsets.all(20.0),
+                        margin: const EdgeInsets.all(2.0),
                         width: 100,
                         height: 100,
                         decoration: BoxDecoration(
-                          shape: BoxShape.circle,
+                          shape: BoxShape.rectangle,
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             image: FileImage(_imageFiles[i]),
@@ -207,14 +207,14 @@ class _DadosUsuarioTelaState extends State<DadosUsuarioTela> {
                 ElevatedButton(
                   onPressed: _captureImage,
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(200, 50),
+                    fixedSize: const Size(200, 40),
                   ),
                   child: const Text('Tirar Foto'),
                 ),
                 ElevatedButton(
                   onPressed: _uploadData,
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(200, 50),
+                    fixedSize: const Size(200, 40),
                   ),
                   child: const Text('Enviar Dados'),
                 ),
