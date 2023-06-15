@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "728739790069",
+    "project_id": "projeto-integrador3-442ef",
+    "storage_bucket": "projeto-integrador3-442ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728739790069:android:8a43e5b9834d30b86919bc",
+        "android_client_info": {
+          "package_name": "br.com.Sorriso24h.edu.puccampinas.sorriso24hcliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728739790069-622d9m6ijc5omuhdd1s0u5i2biciouai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstw4X8ebXFVTUXhLjXa0zfF6WxPRyaGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728739790069-622d9m6ijc5omuhdd1s0u5i2biciouai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "728739790069-cooj0g3fk75grranj3h47jclhc3uuqaf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.Sorriso24h.edu.puccampinas.sorriso24hcliente"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728739790069:android:17c0ed70e5703ba76919bc",
+        "android_client_info": {
+          "package_name": "br.edu.puc.sorriso24h"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728739790069-622d9m6ijc5omuhdd1s0u5i2biciouai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstw4X8ebXFVTUXhLjXa0zfF6WxPRyaGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728739790069-622d9m6ijc5omuhdd1s0u5i2biciouai.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "728739790069-cooj0g3fk75grranj3h47jclhc3uuqaf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.Sorriso24h.edu.puccampinas.sorriso24hcliente"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
